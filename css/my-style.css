@@ -1,0 +1,117 @@
+/* GENERAL STYLING */
+body { font-family: 'Roboto', sans-serif; }
+.carousel-indicators li { width: 11px; height: 10px; border-radius: 100%; background-color:LightGray; }
+small {font-size:9px;}
+.carousel-caption p, .carousel-caption h5 { color:#000; font-size:18px }
+.carousel-caption { padding-top:0px; padding-bottom:0px; }
+.carousel-caption h2 { font-weight:bold; }
+
+/* NAV1 */
+.nav { background-color:#607d8b; text-align:center; display:block;}
+.nav .nav-link { color:#fff; font-size:13px;}
+.nav .nav-link:hover { color:#e5e5e5;}
+
+/* NAV2 */
+.navbar-nav .nav-item .nav-link { font-size:10px; color:#000; font-weight:bold;}
+.collapse p { font-size:11px;}
+
+/* HEADER SECTION */
+#headersection { position:relative; background-color:#f7f7f7;}
+.header-footer {  position:relative; height:100px; margin-top:100px;}
+.header-footer .buttons { color:#000; width:100%; bottom:0; position:absolute; margin-bottom:-30px;}
+#headersection .header1 { background-color:rgba(0,0,0,.7); }
+#headersection .header2 { background-color:rgba(255,0,0,1); }
+#headersection .h-up { top:0; margin-top:180px; height:330px; }
+#headersection .h-up .jumbotron { color:#000; width:50% }
+#headersection .h-up .jumbotron strong { font-size:28px; }
+#headersection .h-up .jumbotron small { font-size:12px; }
+#headersection .h-up .controls1 { margin-top:230px; margin-left:20px;}
+#myslider {top:0px; height:250px; position:absolute; margin-top:60%; background-color:transparent;}
+
+/* SECTION2 */
+#section2 .carousel-caption { top:0; height:130px; color:#000;}
+#myslider2 { position:relative; }
+#myslider2 .carousel-inner .carousel-item { padding-top:150px; padding-bottom:50px;}
+.p-img { top:0; left:50%; width:64px; margin-left:-32px; position:absolute; margin-top:50px; }
+.p-text { top:0; left:50%; width:200px; margin-left:-100px; text-align:center; font-weight:bold; font-size:25pt; position:absolute; margin-top:150px; }
+#myslider2 card-wrapper { width:14rem; } 
+
+/* PARALLAX SECTION */
+#parallaxsection {
+				background-image:url(../images/content1.jpg);
+				background-attachment:fixed;
+				background-position:center;
+				background-repeat:no-repeat;
+				background-size:cover;
+			}
+#parallax-overlay { background-color:rgba(0,0,0,.6); height:100hv; position:relative;}
+#parallax-overlay p {color:whitesmoke; text-align:center;}
+.padding-x { padding-left:15%; padding-right:15%; }
+.parallax-footer { width:100%; }
+.parallax-footer .buttons { color:#000; width:100%; bottom:0; position:absolute; margin-bottom:-30px;}
+
+
+/* SECTION4 */
+#myslider4 { position:relative; }
+#section4 .card { border:none; cursor:pointer;}
+#section4 .carousel-caption { top:0; height:100px; color:#000;}
+#section4 .carousel-inner .carousel-item { padding-top:100px; padding-bottom:50px;}
+#section4 card-wrapper { width:14rem; } 
+
+/* SECTION5 */
+#section5 { padding-top:80px; padding-bottom:50px; position:relative;}
+#section5 .card { border:none; cursor:pointer; background-color:transparent;}
+#section5 .carousel-caption { top:0; height:150px; color:#000;}
+#section5 .carousel-inner .carousel-item { padding-top:120px; padding-bottom:80px;}
+
+/* SECTION FOOTER */
+#footer { color:#fff;}
+#footer .f-map { background:#455a64; }
+#footer .f-map li { font-size:12px; }
+#footer .f-map li a { color:#fff; }
+#footer .f-map2 { background-color:#37474f; }
+/* MEDIA QUERY */
+
+@media screen and (max-width:1200px) { 
+#headersection .h-up .jumbotron { color:#000; width:55%}
+#headersection .h-up { top:0; margin-top:130px; }
+#headersection .h-up .controls1 { margin-top:210px; margin-left:20px;}
+#headersection .h-up .jumbotron strong { font-size:22px; }
+#headersection .h-up .jumbotron small { font-size:10px; }
+#footer .f-links { padding-top:50px; }
+}
+
+@media screen and (max-width:992px) { 
+#section4 .card-block { text-align:center;}
+#section5 .card-block { text-align:center;}
+#section2  { padding-top:220px }
+.header-footer .buttons { position:inline; margin-bottom:-220px;}
+.header-footer .buttons .btn { width: 80%;}
+#headersection { position:relative; background-color:white;}
+.header-footer {  position:relative; height:0px}
+}
+
+@media screen and (max-width:768px) { 
+.carousel-caption p, .carousel-caption h5 { color:#000; font-size:15px }
+.parallax-footer .buttons { position:inline; margin-bottom:-150px;}
+.parallax-footer .buttons .btn { width: 80%;}
+#parallax-overlay p { font-size:13px; }
+#section4 .carousel-inner .carousel-item { padding-top:180px; padding-bottom:50px;}
+#section4 .carousel-caption { top:0; height:100px; }
+#section4 {padding-top:150px;}
+#section5 .carousel-caption { top:0; height:150px; color:#000;}
+#section5 .carousel-inner .carousel-item { padding-top:180px; padding-bottom:80px;}
+#section5 { padding-top:80px; padding-bottom:50px; position:relative;}
+#myslider2 .carousel-inner .carousel-item { padding-top:180px; padding-bottom:50px;}
+#headersection {margin-bottom:250px;}
+.header-footer .buttons { position:inline; margin-bottom:-220px;}
+.header-footer .buttons .btn { width: 80%;}
+}
+
+@media screen and (max-width:576px) { 
+#headersection {margin-bottom:250px;}
+.header-footer .buttons { position:inline; margin-bottom:-220px;}
+.header-footer .buttons .btn { width: 80%;}
+.carousel-caption p, .carousel-caption h5 { color:#000; font-size:13px }
+.carousel-caption h2 { font-weight:bold; font-size:24px;}
+}
